@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <title>geoStabil</title>
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header sticky-top">
+        <nav class=" navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <div class="col-12 col-lg-4 menu">
+                <a class="navbar-brand offset-md-1" href="#">GeoStabil</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>  
+
+                <div class="col">
+                  <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item ml-auto">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contactanos.html">Contactanos</a>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-diplomados" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Artes
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-diplomados">
+                      <li><a class="dropdown-item" href="#">Musica</a></li>
+                      <li><a class="dropdown-item" href="#">Dibujos</a></li>
+                      <li><a class="dropdown-item" href="#">Pintura</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink-diplomados" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Diplomados
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink-diplomados">
+                      <li><a class="dropdown-item" href="#">Técnico en Geología.</a></li>
+                      <li><a class="dropdown-item" href="#">Geotecnia.</a></li>
+                      <li><a class="dropdown-item" href="#">Educación Ambiental</a></li>
+                      <li><a class="dropdown-item" href="#">S.I.G (Sistemas de Información <br> Geográfica)</a></li>
+                      <li><a class="dropdown-item" href="#">Energías Renovables</a></li>
+                      <li><a class="dropdown-item" href="#">Bioingeniería para suelos</a></li>
+                      <li><a class="dropdown-item" href="#">Permacultura.</a></li>
+                      <li><a class="dropdown-item" href="#">Ingles.</a></li>
+                      <li><a class="dropdown-item" href="#">Música (Guitarra).</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </nav>
+    </header>
+    
+    <main data-spy="scroll" data-target="#home" data-offset="0">
+        
+      <section class="seccion-1">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./src/assets/seccion-1_img-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./src/assets/seccion-1_img-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./src/assets/seccion-1_img-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./src/assets/seccion-1_img-4.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./src/assets/seccion-1_img-5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="overlay">
+
+          </div>
+        </section>
+
+          <section class="container text-center mt-5 mb-5 hero">
+            <div class="row">
+              <div class="col col-md-6 offset-md-3">
+                <h2 class="hero__title title">Conservación y Resiliencia</h2>
+                <p>
+                  ONG para el desarrollo del pensamiento Científico, forjada como institución para la ejecución de sistemas educativos en aprendizajes con docentes altamente especializados en cada área del conocimiento. Prestamos servicios a distancia en recopilacion, diseño e interpretacion de Sistemas de información Geográfica (modelaciones en 3D), Cartografía Geológica, Exploración de yacimientos minerales, Planes de Manejo Ambiental, hidrología e hidrogeología, Geotecnia y Permacultura.
+                </p>
+              </div>
+            </div>
+            <div class="col col-md-6 offset-md-3 mt-5">
+                <h3 class="seccion-1__title title"> Geología y Geotecnia</h3>
+                <p>Exploración y cartografía geológica de Yacimientos minerales, hidrogeología, Análisis y estudios de Suelos para la estabilidad de taludes, caracterizaciones geotécnicas, ensayos lefranc, lugeon y SPT, Diseño de Sistemas de información geográfica.</p>
+            </div>
+          </section>
+
+    <section class="seccion-2 mb-6">
+      <div class="container text-center mt-6 mb-5 pt-5 pb-5">
+        <div class="row">
+          <div class="col-12 col-md-6 m-auto">
+              <img src="./src/assets/section-2_image.png" alt="">
+            </div>
+            <div class="col">
+              <h3 class="seccion-2__title title mt-4 mb-4">Nuestras nuevas propuestas para Aprender y disfrutar sin límites</h3>
+              <p >
+                Entrelazando diversidad en los conocimientos con aprendizajes en modalidad de diplomados de manera colectiva basados en las Ciencias de la Tierra, Biología, Geología, Geotecnia, Educación Ambiental, Permacultura Energías Renovables Música e ingles que permitan mejorar nuestra conciencia para el equilibrio de los ecosistemas, restauración, cuidado del Medio Ambiente y resiliencia ante el Cambio Climático en el compartir de Culturas y Tradiciones.
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="container section-3">
+      <div class="row">
+        <div class="col">
+          <div class="row gallery m-auto mb-5">
+            <div class="col-12">
+            <img src="./src/assets/section-3_image-collage_1.png" alt="" class="collage-item_1">
+          </div>
+          <div class="col-6">
+            <img src="./src/assets/section-3_image-collage_2.png" alt="" class="collage-item_2">
+          </div>
+          <div class="col-6">
+            <img src="./src/assets/section-3_image-collage_3.png" alt="" class="collage-item_3">
+          </div>
+          <div class="col-12">
+            <img src="./src/assets/section-3_image-collage_4.png" alt="" class="collage-item_4">
+          </div>
+        </div>
+      </div>
+
+          <div class="col col-md-6 m-auto">
+            <h1 class="seccion-3__title title">Participa de nuestros Diplomados Virtuales en: </h1>
+            <ul class="seccion-3__list">
+                <li class="seccion-3__list__item">Técnico en Geología. </li>
+                <li class="seccion-3__list__item">Geotecnia.</li>
+                <li class="seccion-3__list__item">Educación Ambiental.</li>
+                <li class="seccion-3__list__item">S.I.G (Sistemas de Información Geográfica).</li>
+                <li class="seccion-3__list__item">Energías Renovables. </li>
+                <li class="seccion-3__list__item">Bioingeniería para suelos. </li>
+                <li class="seccion-3__list__item">Permacultura.</li>
+                <li class="seccion-3__list__item">Ingles.</li>
+                <li class="seccion-3__list__item">Música (Guitarra).</li>
+              </ul>
+            </div>
+        </div>
+      </section>
+
+        <section class="section-4 text-center mt-6">
+          <div class="container pt-5 pb-5">
+            <div class="row">
+              <div class="col col-md-6 offset-md-3">
+                <h3 class="seccion-4__title title mt-4">Ejecución de labores como:</h3>
+                <p>Conducción y manejo de aguas superficiales y de escorrentía para la prevención de deslizamientos por infiltración y saturaciones del suelo.
+                  <br><br>
+                  Dieños de estabilidad de taludes.
+                  <br><br>
+                  Obras de permacultura para la interacción y aprovecbamiento de los espacios verdes.
+                  <br> <br>
+                  Exploración hidrogeológica de acuíferos, modelaciones en Arcgis.
+                  Desarrollo de trabajos en Software como Arcgis, Autocad 2D y 3D, Corel Draw, Qgis, ArcMap, RockSience, Slide para Analisis de estabilidad, entre otros.
+                  <br> <br>
+                  Adecuación de Sistemas Geotérmicos para el aprovechamiento de energía Calorífica.
+                  <br> <br>
+                  Caracterización de Cuencas hidrográficas y análisis de viabilidad de Reforestación para recarga de acuíferos.
+                  Instalación de obras de bioingeniería para buen manejo hidráulico en los suelos.</p>
+                  
+                </div>
+              </div>
+            </div>
+      </section>
+      
+    <section class="container mt-6 seccion-diplomados">
+      <div class="row ">
+        <div class="col mb-4">
+          <div class="card m-auto" style="width: 18rem; height: 500px">
+            <img src="./src/assets/seccion-diplomados_images-biofz.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bio ingeniería y Control Erosivo de Suelos</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">          
+          <div class="card m-auto" style="width: 18rem; height: 500px">
+            <img src="./src/assets/seccion-diplomados_images-energias.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Energías Renovables</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col mb-4">
+          <div class="card m-auto" style="width: 18rem; height: 500px">
+            <img src="./src/assets/seccion-diplomados_images-geologia.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Geología</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+          
+        <div class="col mb-4">
+          <div class="card m-auto" style="width: 18rem; height: 500px">
+            <img src="./src/assets/seccion-diplomados_images-ingles.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ingles</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card m-auto" style="width: 18rem; height: 500px">
+            <img src="./src/assets/seccion-diplomados_images-parnacultura.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Permacultura</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4">
+          <div class="card m-auto" style="width: 18rem; height: 500px">
+              <img src="./src/assets/seccion-diplomados_images-sis.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sistemas de Información Geográfica (S.I.G)</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+        </section>
+
+
+        <section class="container donaciones text-center">
+          <div class="row">
+            <div class="col col-md-6 offset-md-3 mt-5 ">
+              <h1 class="mb-4">Si deseas aportar a nuestra fundacion puedes realizarlo aqui</h1>
+              <img src="./src/assets/logo.jpg" alt="" class="mb-4">
+              <button type="button" class="donaciones__button btn-lg btn-primary d-block m-auto" data-bs-toggle="modal" data-bs-target="#Donaciones">Donaciones</button>
+            </div>
+          </div>
+        </section>
+
+        <div class="modal" id="Donaciones" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Donaciones</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="text-center pt-5 pb-5">
+                  <form action="https://www.paypal.com/donate" method="post" target="_top">
+                    <input type="hidden" name="business" value="yeisonstik23@hotmail.com" />
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <input type="image" src="https://www.paypalobjects.com/es_ES/ES/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Botón Donar con PayPal" />
+                    <img alt="" border="0" src="https://www.paypal.com/es_ES/i/scr/pixel.gif" width="1" height="1" />
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+</main>
+<footer>
+  <div class="container mt-6 pt-5 pb-5">
+    <div class="row">
+      <div class="col col-md-8 offset-md-2">
+        <h2 class="mb-3">Obtén gratis tu Diplomado solo paga tu certificado.</h2>
+        <p>Especialízate en uno de nuestros planes académicos disponibles en Ciencias de la tierra, Musicales o lenguas modernas Ingles y francés, que te permitan ir mas allá de un simple conocimiento.</p>  
+        <!-- <button type="button" class="btn btn btn-warning m-auto d-block mt-4">Registrate</button> -->
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Registrate
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="row mb-3">
+            <div class="col">
+              <label for="validationCustom01" class="form-label">First name</label>
+              <input type="text" class="form-control" id="validationCustom01" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col">
+              <label for="validationCustom02" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="validationCustom02" required>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-12">
+              <label for=""></label>
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            </div>
+          </div>
+          
+          <div class="row mb-3">
+            <label for="inputEmail3" class="col-sm-4 col-form-label">Tu correo electronico</label>
+            <div class="col-sm-8">
+              <input type="email" class="form-control" id="inputEmail3">
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-4 col-form-label">Nueva contraseña</label>
+            <div class="col-sm-8">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          
+          <div class="row mb-3">
+            <label for="inputPassword3" class="col-sm-4 col-form-label">Repite la contraseña</label>
+            <div class="col-sm-8">
+              <input type="password" class="form-control" id="inputPassword3">
+            </div>
+          </div>
+          <fieldset class="row mb-3">
+            <legend class="col-form-label col-sm-2 pt-0">Genero</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Hombre
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Mujer
+                </label>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        <button type="submit" class="btn btn-primary">Registrate</button>
+      </div>
+    </div>
+  </div>
+</div>
+</footer>
+<sc src="./src/js/index.js"></sc>
+</body>
+</html>

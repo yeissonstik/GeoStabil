@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-collapse {
+    justify-content: center;
+    /* margin-left: 300px; */
+    margin-right: auto;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+}
+.grapper {
+  margin: auto;
+}
+.gallery *{
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.gallery{
+  width: 300px;
+  padding: 0 !important;
+}
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+}
+
+.mt-6 {
+  margin-top: 150px;
+}
+.mb-6 {
+  margin-bottom: 150px;
+}
+
+.card-img-top{
+  height: 250px;
+}
+
+.seccion-1{
+  position: relative;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.411);
+}
+
+/* .carousel-item img {
+  height: 92vh;
+} */
+
+
+.seccion-2{
+  background-color: rgb(0, 132, 255);
+}
+
+.section-4 {
+  background-color: rgb(0, 132, 255);
+}
+
+.social i {
+  font-size: 5rem;
+  color: rgb(0, 132, 255);
+}
+
+footer{
+  background-color: rgb(0, 132, 255);
+}
