@@ -13,6 +13,9 @@
   display: flex;
   justify-content: space-between;
 }
+.carousel-item img {
+  height: 100%;
+}
 .grapper {
   margin: auto;
 }
